@@ -28,6 +28,7 @@ import layeringMenu from "./functions/layeringMenu";
 import leashAlways from "./functions/leashAlways";
 import lockpickHelp from "./functions/lockpickHelp";
 import nicknames from "./functions/nicknames";
+import petsuitAnimation from "./functions/petsuitAnimation";
 // import crafting from "./functions/crafting";
 import numericArousalMeters from "./functions/numericArousalMeters";
 import pastProfiles from "./functions/pastProfiles";
@@ -126,6 +127,7 @@ export async function registerAllFunctions(): Promise<void> {
   registerFunction(hookBCXAPI, "hookBCXAPI");
   registerFunction(customContentDomainCheck, "customContentDomainCheck");
   registerFunction(numericArousalMeters, "numericArousalMeters");
+  registerFunction(petsuitAnimation, "petsuitAnimation");
   registerFunction(richOnlineProfile, "richOnlineProfile");
   registerFunction(confirmLeave, "confirmLeave");
   registerFunction(chatRoomWhisperFixes, "chatRoomWhisperFixes");
